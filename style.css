@@ -19,10 +19,20 @@ body{
 .container{
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     overflow: hidden;
-    width: 300px;
+    width: 100%;
 }
 
+/* .container2 {
+    position: absolute;
+    top: 50px;
+    left: 10vh;
+    width: 230px;
+
+} */
 .title{
     margin: 0;
 }
